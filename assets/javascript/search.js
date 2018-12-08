@@ -1,12 +1,9 @@
-var userInput
-
-$("#searchBtn").on("click", function(event) {
-    event.preventDefault();
-    userInput = $("#searchTerm").val().trim();
-  });
- 
- $("#reset").on("click", function(){
+$("#resetBtn").on("click", function(){
     $(".results").empty();
+    $("#searchTerm").empty();
+    $("#startYear").empty();
+    $("#endYear").empty()
+    $("numberOfRecords")=1;
  });
 
  $("#searchBtn").on("click", function() {
@@ -41,7 +38,7 @@ $("#searchBtn").on("click", function(event) {
         bylineDiv.append(byline);
  
         articleDiv.append(numberSpan).append(headlineSpan).append(bylineDiv);
-        $("#results").append(articleDiv);
+        $(".results").append(articleDiv);
         }
     })
  }

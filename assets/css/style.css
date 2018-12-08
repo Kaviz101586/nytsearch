@@ -1,37 +1,30 @@
 body  {
-   background:white;
-   color:black;
-   font-family:'Times New Roman', Times, serif;
-   font-size:14px;
-}
-
-#header {
-   color:white;
-   margin-left:1px;
-   margin-right:1px;
-   background: darkblue;
-   text-align:center;
-   vertical-align: center;
-   display:block;
-   margin:auto;
-   font-size:30px;
-   padding:100px;
-
-}
-
-.innerHeader {
-   background:gainsboro;
-   vertical-align:center;
-   padding-left:3px;
-   /* height:5px; */
-   margin-top:5px;
-   margin-bottom:5px;
-}
-
-.box {
-   padding-left:3px;
-}
-
-.row {
-    height: 30px
-}
+    background:white;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-size:14px;
+ }
+ #header {
+    color:white;
+    margin-left:1px;
+    margin-right:1px;
+    background: darkblue;
+    text-align:center;
+    display:block;
+    margin:auto;
+    font-size:30px;
+    padding:100px;
+ }
+ .innerHeader {
+    background:gainsboro;
+    vertical-align:center;
+    padding-left:3px;
+    margin-top:5px;
+    margin-bottom:5px;
+ }
+ .box {
+    padding-left:3px;
+ }
+ .row {
+    height: 30px;
+ }
